@@ -1,0 +1,43 @@
+[
+    {
+        "name": "newfunction1",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getAllCategories",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getItemsCategory",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "AddItems",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getAllItems",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getShops",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "addShops",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "updateShops",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    }
+]

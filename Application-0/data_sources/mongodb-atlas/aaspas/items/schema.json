@@ -1,0 +1,28 @@
+{
+    "title": "item",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "catagoryId": {
+            "bsonType": "objectId"
+        },
+        "categoryId": {
+            "bsonType": "objectId"
+        },
+        "click": {
+            "bsonType": "long"
+        },
+        "item_name": {
+            "bsonType": "string"
+        },
+        "item_name_english": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "catagoryId",
+        "item_name"
+    ]
+}

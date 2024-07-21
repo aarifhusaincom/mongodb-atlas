@@ -1,0 +1,5 @@
+{
+    "enabled": true,
+    "default_error_path": "/admin/index.html",
+    "default_error_code": "200"
+}

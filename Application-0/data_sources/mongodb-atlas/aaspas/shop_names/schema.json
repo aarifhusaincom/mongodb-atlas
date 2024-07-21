@@ -1,0 +1,68 @@
+{
+    "title": "shop_name",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "address": {
+            "bsonType": "string"
+        },
+        "area": {
+            "bsonType": "string"
+        },
+        "categoryId": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "closeTime": {
+            "bsonType": "string"
+        },
+        "location": {
+            "bsonType": "object",
+            "properties": {
+                "coordinates": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "double"
+                    }
+                },
+                "type": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "openTime": {
+            "bsonType": "string"
+        },
+        "ownerName": {
+            "bsonType": "string"
+        },
+        "phoneNo": {
+            "bsonType": "string"
+        },
+        "shopName": {
+            "bsonType": "string"
+        },
+        "workingDays": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        }
+    },
+    "required": [
+        "_id",
+        "address",
+        "area",
+        "categoryId",
+        "closeTime",
+        "location",
+        "openTime",
+        "ownerName",
+        "phoneNo",
+        "shopName",
+        "workingDays"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "title": "category",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "catagory_image": {
+            "bsonType": "string"
+        },
+        "category_name": {
+            "bsonType": "string"
+        },
+        "click": {
+            "bsonType": "int"
+        }
+    },
+    "required": [
+        "_id",
+        "category_name",
+        "click"
+    ]
+}
